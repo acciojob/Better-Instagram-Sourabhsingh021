@@ -1,6 +1,6 @@
 //your code here
 const parent = document.getElementById("parent");
-draggedItem = null;
+let draggedItem = null;
 
 parent.addEventListener('dragstart', (e) => {
 draggedItem = e.target;
